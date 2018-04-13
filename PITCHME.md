@@ -1,5 +1,5 @@
-#Presentación de nuestro proyecto
-
+# Presentación de nuestro proyecto
+----------------------------------
 ---
 
 Segunda diapo.
