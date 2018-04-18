@@ -1,1 +1,33 @@
-Hola mundo, mi primera web en GitHub
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recoge el nombre del email</title>
+    
+    
+</head>
+<body>
+    
+    <div class="mainDiv" align="right"></div>
+    <h1 id="cabecera">Firebase web app</h1>
+    <textarea id="mainText" placeholder="Entra el texto aqui.." id="" cols="30" rows="10"></textarea>
+    <button id="submitBtn" onClick="submitClick()">Haz Click!"</button>
+    
+    
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCD0Ewt5kuvVcvcHMqOO3i9QsgxyPtZeHw",
+    authDomain: "juegosdemesa-ebb47.firebaseapp.com",
+    databaseURL: "https://juegosdemesa-ebb47.firebaseio.com",
+    projectId: "juegosdemesa-ebb47",
+    storageBucket: "juegosdemesa-ebb47.appspot.com",
+    messagingSenderId: "391610433361"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script src="logica.js"></script>
+</body>
+</html>
